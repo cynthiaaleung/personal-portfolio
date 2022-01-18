@@ -45,6 +45,24 @@
 
       h3{
         font-size: 30px;
+
+        span{
+          font-size: inherit;
+          color: orange;
+        }
+
+        .ityped-cursor{
+          animation: blink 1s infinite;
+        }
+
+        @keyframes blink{ // make blink look more realistic
+          50%{
+            opacity: 1;
+          }
+          100%{
+            opacity: 0;
+          }
+        }
       }
     }
     a{
@@ -54,6 +72,14 @@
 
       img{
         width: 30px;
+        animation: arrowBlink 2s infinite;
+      }
+
+      // @keyframes controls steps after animation
+      @keyframes arrowBlink{
+        to{ // this means after 2s the arrow will turn transparent, "to" and "100%" interchangeable
+          opacity: 0;
+        }
       }
     }
   }
