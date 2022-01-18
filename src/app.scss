@@ -7,5 +7,17 @@
     background-color: lightsalmon;
     position: relative;
     top: 70px;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; // this and "scroll-snap-align: start" allows the page to snap back to the start of whichever section it is inside
+    scrollbar-width: none; // hide scroll bar for firefox
+    &::-webkit-scrollbar{ // hides scroll bar for other browsers(safari, chrome, edge etc)
+      display: none;
+    }
+
+    > *{
+      width: 100vw;
+      height: calc(100vh - 70px);
+      scroll-snap-align: start;
+    }
   }
 }
