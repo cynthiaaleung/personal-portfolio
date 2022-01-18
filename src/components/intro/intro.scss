@@ -1,3 +1,28 @@
 .intro{
-  background-color: lightblue;
+  background-color: white;
+  display: flex;
+
+  .left{
+    flex: 0.5;
+    overflow: hidden;
+
+    .imgContainer{
+      width: 800px;
+      height: 800px;
+      background-color: orange;
+      border-radius: 50%; // creates circle shape
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      float: right;
+
+      img{
+        height: 90%;
+      }
+    }
+  }
+
+  .right{
+    flex: 0.5;
+  }
 }
