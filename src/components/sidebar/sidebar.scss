@@ -1,12 +1,12 @@
 @import "../../global.scss";
 
 .sidebar{
-  width: 300px;
+  width: 200px;
   height: 100vh;
   background-color: $mainColor;
   position: fixed;
   top: 0;
-  right: -300px; // so it is hidden since width is 300px
+  right: -200px; // so it is hidden since width is 200px
   z-index: 2; // less than navbar z-index
   display: flex;
   flex-direction: column;
