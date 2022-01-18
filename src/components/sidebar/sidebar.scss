@@ -17,4 +17,29 @@
   &.active{
     right: 0; // when menuOpen is true, will show the sidebar
   }
+
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-style: none;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    width: 60%;
+
+    li{
+      margin-bottom: 25px;
+
+      a{
+        font-size: inherit;
+        color: inherit;
+        text-decoration: none;
+      }
+
+      &:hover{
+        font-weight: 500;
+      }
+    }
+  }
 }
