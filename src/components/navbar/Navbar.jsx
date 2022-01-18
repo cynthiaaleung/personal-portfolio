@@ -1,7 +1,7 @@
 import "./navbar.scss";
 import { LocationCity, Mail } from "@material-ui/icons";
 
-export default function Navbar({menuOpen, setMenuOpen}) {
+export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
     // when menuOpen is true, add "active" to className -> "navbar active"
     <div className={"navbar " + (menuOpen && "active")}>

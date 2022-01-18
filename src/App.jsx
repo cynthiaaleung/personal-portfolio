@@ -4,6 +4,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
 import "./app.scss";
 import { useState } from "react";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro />
         <Portfolio/>
