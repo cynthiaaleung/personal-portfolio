@@ -17,6 +17,7 @@ export default function Works() {
 
   return (
     <div className="works" id="works">
+      <h1>My Works</h1>
       {/* -100vw will show next slide */}
       <div className="slider" style={{transform: `translateX(-${currentSlide*100}vw)`}}>
         {worksData.map(d=> (

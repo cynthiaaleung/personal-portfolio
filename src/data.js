@@ -15,6 +15,11 @@ export const featuredPortfolio = [
     title: "Scheduler",
     img: "assets/featured-Scheduler.png",
   },
+  {
+    id: 4,
+    title: "Tweeter",
+    img: "assets/all-Tweeter.png",
+  },
 
 ];
 

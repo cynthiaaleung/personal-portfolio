@@ -5,9 +5,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+
+  a{
+    position: absolute;
+    bottom: 25px;
+
+    img{
+      width: 30px;
+      animation: arrowBlink 1.5s infinite;
+    }
+
+    // @keyframes controls steps after animation
+    @keyframes arrowBlink{
+      to{ // this means after 2s the arrow will turn transparent, "to" and "100%" interchangeable
+        opacity: 0;
+      }
+    }
+  }
 
   h1{
-    font-size: 48px;
+    font-size: 36px;
+    top: 50px;
+    // position: absolute;
   }
 
   ul{
@@ -25,10 +45,10 @@
     flex-wrap: wrap;
 
     .item{
-      width: 220px;
-      height: 150px;
-      border-radius: 8px;
-      border: 1px solid lrgb(240, 239, 239);
+      width: 280px;
+      height: 160px;
+      border-radius: 5px;
+      border: 1px solid rgb(240, 239, 239);
       margin: 10px 20px;
       display: flex;
       align-items: center;
@@ -60,5 +80,4 @@
       }
     }
   }
-
 }
