@@ -1,6 +1,7 @@
 import "./portfolio.scss";
 import PortfolioList from "../portfolioList/PortfolioList";
 import { useEffect, useState } from "react";
+import { featuredPortfolio, allPortfolio } from "../../data";
 
 export default function Portfolio() {
 
