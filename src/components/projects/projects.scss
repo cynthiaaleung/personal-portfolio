@@ -110,6 +110,12 @@
                 display: none; 
               }
             }
+
+            a{
+              @include mobile{
+                font-size: 14px;
+              }
+            }
           }
         }
 
