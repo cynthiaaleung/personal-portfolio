@@ -57,7 +57,7 @@ export default function Portfolio() {
         ))}
       </div>
       <a href="#projects">
-        <img src="assets/down-arrow.png" alt="" />
+        <img src="assets/right-arrow.png" alt="" />
       </a>
     </div>
   )
