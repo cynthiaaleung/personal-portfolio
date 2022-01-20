@@ -1,11 +1,11 @@
 $mainColor: #02226d;
 
 /*
-create a function called mobile for screens < 768px,
+create a function called mobile for screens < 480px,
 @content allows us to pass a content block into mixin, which means we can customize the mixin
 */
 
-$width: 768px;
+$width: 480px;
 
 @mixin mobile {
   @media (max-width: #{$width}) {
