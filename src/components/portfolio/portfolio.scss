@@ -6,11 +6,15 @@
   align-items: center;
   position: relative;
   background-image: url("../../../public/assets/background-image.png");
-  background-size: contain;
+  background-size: cover;
 
   a{
     position: absolute;
     bottom: 20px;
+
+    @include mobile{
+      display: none;
+    }
 
     img{
       width: 30px;
@@ -31,6 +35,10 @@
     top: 50px;
     margin-bottom: 5px;
     margin-top: 10px;
+
+    @include mobile{
+      font-size: 20px;
+    }
   }
 
   ul{
@@ -38,6 +46,11 @@
     padding: 0;
     list-style: none;
     display: flex;
+
+    @include mobile{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
 
   .container{
@@ -46,6 +59,10 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
+    @include mobile{
+      width: 100%;
+    }
 
     .item{
       width: 280px;
@@ -60,6 +77,11 @@
       position: relative;
       transition: all 0.5s ease;
       cursor: pointer;
+
+      @include mobile{
+        width: 140px;
+        height: 100px;
+      }
 
       h3{
         position: absolute;

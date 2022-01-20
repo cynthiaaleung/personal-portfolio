@@ -40,16 +40,16 @@ export default function Projects() {
           </div>
         ))}
       </div>
-      <img 
-        src="assets/right-arrow.png" 
-        alt="" className="arrow left" 
-        onClick={()=>handleClick("left")}
-      />
-      <img 
-      src="assets/right-arrow.png" 
-      alt="" className="arrow right"
-      onClick={()=>handleClick("right")}
-      />
+        <img 
+          src="assets/right-arrow.png" 
+          alt="" className="arrow left" 
+          onClick={()=>handleClick("left")}
+        />
+        <img 
+          src="assets/right-arrow.png" 
+          alt="" className="arrow right"
+          onClick={()=>handleClick("right")}
+        />
     </div>
   )
 }

@@ -33,6 +33,10 @@
         align-items: center;
         margin-left: 30px;
 
+        @include mobile{
+          display: none; // this will not display location and email
+        }
+
         .icon{
           font-size: 18px;
           margin-right: 5px;

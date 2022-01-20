@@ -11,7 +11,7 @@ export default function About() {
           About Me
         </h1>
         <p className="about-desc">
-        I am a Full Stack Web Developer with a background in Economics and Banking. I am passionate about creating apps with amazing aesthetics that empower and add convenience to users. In my spare time, you can find me playing the piano, painting, and hanging out with my friends!
+        I am a Full Stack Web Developer with a background in Economics and Banking. I am passionate about creating apps with amazing aesthetics that empower and add convenience to users. In my spare time, you can find me playing the piano or hanging out with my friends!
         </p>
         <p className="stack">
           Tech Stack
