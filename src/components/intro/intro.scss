@@ -52,7 +52,7 @@
         }
 
         .ityped-cursor{
-          animation: blink 1/5s infinite;
+          animation: blink 1.5s infinite;
         }
 
         @keyframes blink{ // make blink look more realistic
@@ -72,12 +72,12 @@
 
       img{
         width: 30px;
-        animation: arrowBlink 1s infinite;
+        animation: arrowBlink 1.5s infinite;
       }
 
       // @keyframes controls steps after animation
       @keyframes arrowBlink{
-        to{ // this means after 2s the arrow will turn transparent, "to" and "100%" interchangeable
+        to{ // this means after 1.5s the arrow will turn transparent, "to" and "100%" interchangeable
           opacity: 0;
         }
       }

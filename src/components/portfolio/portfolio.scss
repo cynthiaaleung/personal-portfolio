@@ -10,7 +10,7 @@
 
   a{
     position: absolute;
-    bottom: 25px;
+    bottom: 20px;
 
     img{
       width: 30px;
@@ -19,7 +19,7 @@
 
     // @keyframes controls steps after animation
     @keyframes arrowBlink{
-      to{ // this means after 2s the arrow will turn transparent, "to" and "100%" interchangeable
+      to{ // this means after 1.5s the arrow will turn transparent, "to" and "100%" interchangeable
         opacity: 0;
       }
     }
@@ -28,7 +28,8 @@
   h1{
     font-size: 36px;
     top: 50px;
-    // position: absolute;
+    margin-bottom: 5px;
+    margin-top: 10px;
   }
 
   ul{

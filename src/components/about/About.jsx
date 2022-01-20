@@ -23,6 +23,11 @@ export default function About() {
           <a href="https://github.com/cynthiaaleung"><FontAwesomeIcon icon={faGithub} /></a>
           <a href="https://www.linkedin.com/in/cynthiaaleung"><FontAwesomeIcon icon={faLinkedin} /></a>
         </div>
+        <div className="arrow">
+        <a href="#portfolio" className="about-arrow">
+          <img src="assets/down-arrow.png" alt="" />
+        </a>
+      </div>
       </div>
       <div className="about-right">
         <div className="about-card bg">
