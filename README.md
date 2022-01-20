@@ -2,7 +2,9 @@
 
 ## Project Description
 
-Welcome to my [personal portfolio!] (https://cynthiaaleung.github.io/personal-portfolio/) 
+Welcome to my personal portfolio! 
+
+Here is the link to deployed site: https://cynthiaaleung.github.io/personal-portfolio/
 
 I created this to showcase my projects and also to share a bit about myself! I really enjoyed creating this project using React and SASS, and also had the opportunity to explore other useful libraries for styling: ityped, Material-UI, Font Awesome.
 
