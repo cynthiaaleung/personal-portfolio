@@ -1,8 +1,10 @@
-import "./works.scss";
+import "./projects.scss";
 import { worksData } from "../../works-data";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-export default function Works() {
+export default function Projects() {
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -16,8 +18,8 @@ export default function Works() {
   }
 
   return (
-    <div className="works" id="works">
-      <h1>My Works</h1>
+    <div className="projects" id="projects">
+      <h1>My Projects</h1>
       {/* -100vw will show next slide */}
       <div className="slider" style={{transform: `translateX(-${currentSlide*100}vw)`}}>
         {worksData.map(d=> (
@@ -28,7 +30,7 @@ export default function Works() {
                   <h2>{d.title}</h2>
                   <p>{d.desc}
                   </p>
-                  <a href={d.link}>GitHub Link</a>
+                  <a href={d.link}><FontAwesomeIcon icon={faGithub} /> GitHub Link</a>
                 </div>
               </div>
               <div className="right">

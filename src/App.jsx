@@ -1,10 +1,11 @@
 import Navbar from "./components/navbar/Navbar";
-import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
-import Works from "./components/works/Works";
-import "./app.scss";
-import { useState } from "react";
 import Sidebar from "./components/sidebar/Sidebar";
+import Intro from "./components/intro/Intro";
+import About from "./components/about/About";
+import Portfolio from "./components/portfolio/Portfolio";
+import Projects from "./components/projects/Projects";
+import { useState } from "react";
+import "./app.scss";
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
       <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro />
-        <Portfolio/>
-        <Works/>
+        <About />
+        <Portfolio />
+        <Projects />
       </div>
     </div>
   );
