@@ -1,7 +1,5 @@
 # Personal Portfolio
 
-## Project Description
-
 Welcome to my personal portfolio! 
 
 Here is the link to deployed site: https://cynthiaaleung.github.io/personal-portfolio/
