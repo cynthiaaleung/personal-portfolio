@@ -9,11 +9,11 @@ export default function Projects() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   /* 
-  when left arrow is clicked, check if currentSlide index larger than 0 (if false, then means it is the first slide, so setCurrentSlide to index 6 which is the last slide). Similar logic for right arrow.
+  when left arrow is clicked, check if currentSlide index larger than 0 (if false, then means it is the first slide, so setCurrentSlide to index 7 which is the last slide). Similar logic for right arrow.
   */
   const handleClick = (direction) => {
     direction === "left" 
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 6) 
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 7) 
       : setCurrentSlide(currentSlide < worksData.length - 1 ? currentSlide + 1 : 0);
   }
 

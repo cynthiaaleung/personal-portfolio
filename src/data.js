@@ -12,11 +12,16 @@ export const featuredPortfolio = [
   },
   {
     id: 3,
+    title: "Restaurant Tracker",
+    img: "assets/featured-Restaurant-tracker.png",
+  },
+  {
+    id: 4,
     title: "Scheduler",
     img: "assets/featured-Scheduler.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Tweeter",
     img: "assets/all-Tweeter.png",
   },
@@ -37,26 +42,31 @@ export const allPortfolio = [
   },
   {
     id: 3,
+    title: "Restaurant Tracker",
+    img: "assets/featured-Restaurant-tracker.png",
+  },
+  {
+    id: 4,
     title: "Scheduler",
     img: "assets/featured-Scheduler.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Tweeter",
     img: "assets/all-Tweeter.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Jungle",
     img: "assets/all-Jungle.png",
   },
   {
-    id: 6,
+    id: 7,
     title: "TinyApp",
     img: "assets/all-TinyApp.png",
   },
   {
-    id: 7,
+    id: 8,
     title: "To-Do List",
     img: "assets/all-To-Do-List.png",
   },

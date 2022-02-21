@@ -15,34 +15,41 @@ export const worksData = [
   },
   {
     id: 3,
+    title: "Restaurant Tracker",
+    img: "assets/featured-Restaurant-tracker.png",
+    desc: "A multi-page RESTful application where users can view ratings and reviews of restaurants, add their own restaurant, update restaurant details, add a review and delete restaurants.",
+    link: "https://github.com/cynthiaaleung/REST-aurant-tracker"
+  },
+  {
+    id: 4,
     title: "Scheduler",
     img: "assets/works-Scheduler.png",
     desc: "A single-page application where students can view, create, edit, and delete appointments with interviewers.",
     link: "https://github.com/cynthiaaleung/scheduler"
   },
   {
-    id: 4,
+    id: 5,
     title: "Tweeter",
     img: "assets/all-Tweeter.png",
     desc: "Tweeter is a Twitter clone where users can create tweets within the character limit and view previous tweets. ",
     link: "https://github.com/cynthiaaleung/tweeter"
   },
   {
-    id: 5,
+    id: 6,
     title: "Jungle",
     img: "assets/works-Jungle.png",
     desc: "An e-commerce site where users can log in to view all products for sale, add products to cart, and check out using Stripe. Admins can add new products and categories, and modify products.",
     link: "https://github.com/cynthiaaleung/jungle-rails"
   },
   {
-    id: 6,
+    id: 7,
     title: "TinyApp",
     img: "assets/works-TinyApp.png",
     desc: "TinyApp is an application that allows users to shorten long URLs. Users can also edit and delete the shortened URLs.",
     link: "https://github.com/cynthiaaleung/tinyapp"
   },
   {
-    id: 7,
+    id: 8,
     title: "To-Do List",
     img: "assets/all-To-Do-List.png",
     desc: "An application to help users keep track of their tasks. Users can add, move tasks to the Done section, and delete tasks as needed.",
