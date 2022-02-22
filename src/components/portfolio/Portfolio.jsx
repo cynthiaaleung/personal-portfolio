@@ -2,6 +2,8 @@ import "./portfolio.scss";
 import PortfolioList from "../portfolioList/PortfolioList";
 import { useEffect, useState } from "react";
 import { featuredPortfolio, allPortfolio } from "../../data";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Portfolio() {
 
@@ -48,6 +50,7 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div className="item">
+            <a href={d.link} target="_blank" rel="noreferrer noopener"><FontAwesomeIcon icon={faGithub}/></a>
             <img 
               src={d.img} 
               alt="" 

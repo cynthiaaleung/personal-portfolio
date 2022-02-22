@@ -30,7 +30,7 @@ export default function Projects() {
                   <h2>{d.title}</h2>
                   <p>{d.desc}
                   </p>
-                  <a href={d.link}><FontAwesomeIcon icon={faGithub} /> GitHub Link</a>
+                  <a href={d.link} target="_blank" rel="noreferrer noopener"><FontAwesomeIcon icon={faGithub} /> GitHub Link</a>
                 </div>
               </div>
               <div className="right">
